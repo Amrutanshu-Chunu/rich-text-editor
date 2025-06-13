@@ -1,12 +1,10 @@
 
-import Dashboard from "./view/dashboard" ;
+import Route from "./router.jsx";
 import './App.css';
-// import Dashboard from './view/Dashboard.jsx';
-
 function App() {
   return (
     <div >
-        <Dashboard />
+        <Route />
     </div>
   );
 }
